@@ -24,7 +24,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 16px;
 }
 .heading {
     color: #4D4F62;
@@ -77,7 +76,8 @@ body {
     background: url(./images/030-search.svg);
     background-repeat: no-repeat;
     background-position-x:260px ;
-    background-position-y:150px ; 
+    background-position-y:150px ;
+    position: relative;
 }
 .box2 {
     width: 350px;
@@ -92,7 +92,8 @@ body {
     background: url(./images/002-homepage.svg);
     background-repeat: no-repeat;
     background-position-x:260px ;
-    background-position-y:150px ; 
+    background-position-y:150px ;
+    position: relative;
 }
 .box3 {
     width: 350px;
@@ -107,7 +108,8 @@ body {
     background: url(./images/009-idea.svg);
     background-repeat: no-repeat;
     background-position-x:260px ;
-    background-position-y:150px ; 
+    background-position-y:150px ;
+    position: relative;
 }
 .box4 {
     width: 350px;
@@ -123,6 +125,7 @@ body {
     background-repeat: no-repeat;
     background-position-x:260px ;
     background-position-y:150px ; 
+    position: relative;
 }
 .main_box {
     display: flex;
@@ -152,11 +155,14 @@ body {
 .box1::before {
     content: "";
     width: 350px;
-    height: 4px;
+    height: 5px;
     background: #44D3D2;
     box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
     display: inline-block;
     border-radius: 10px 10px 0px 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 .box2::before {
     content: "";
@@ -166,6 +172,9 @@ body {
     box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
     display: inline-block;
     border-radius: 10px 10px 0px 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 .box3::before {
     content: "";
@@ -175,13 +184,23 @@ body {
     box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
     display: inline-block;
     border-radius: 10px 10px 0px 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 .box4::before {
     content: "";
     width: 350px;
-    height: 4px;
+    height: 5px;
     background: #549EF2;
     box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
     display: inline-block;
     border-radius: 10px 10px 0px 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.main_box:hover {
+    display: flex;
+    flex-direction: column-reverse;
 }
