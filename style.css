@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body {
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    width: 1440px;
+    padding: 80px 165px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    background: #FAFAFA;
+}
+.main_div1 {
+    display: flex;
+    width: 540px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.heading {
+    color: #4D4F62;
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+    letter-spacing: 0.25px;
+}
+.main_text {
+    color: #4D4F62;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.25px;
+}
+.un_text {
+    color: #4D4F62;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.104px;
+    opacity: 0.5;
+}
+.main_div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    gap: 30px;
+}
+.box1 {
+    width: 350px;
+    height: 250px; 
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 6px;
+    background: url(./images/030-search.svg);
+    background-repeat: no-repeat;
+    background-position-x:260px ;
+    background-position-y:150px ; 
+}
+.box2 {
+    width: 350px;
+    height: 250px; 
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 6px;
+    background: url(./images/002-homepage.svg);
+    background-repeat: no-repeat;
+    background-position-x:260px ;
+    background-position-y:150px ; 
+}
+.box3 {
+    width: 350px;
+    height: 250px; 
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 6px;
+    background: url(./images/009-idea.svg);
+    background-repeat: no-repeat;
+    background-position-x:260px ;
+    background-position-y:150px ; 
+}
+.box4 {
+    width: 350px;
+    height: 250px; 
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 6px;
+    background: url(./images/045-software.svg);
+    background-repeat: no-repeat;
+    background-position-x:260px ;
+    background-position-y:150px ; 
+}
+.main_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.box_heading {
+    color: #4D4F62;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.box_main_text {
+    color: #4D4F62;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.09px;
+    opacity: 0.5;
+}
+.box1::before {
+    content: "";
+    width: 350px;
+    height: 4px;
+    background: #44D3D2;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    display: inline-block;
+    border-radius: 10px 10px 0px 0px;
+}
+.box2::before {
+    content: "";
+    width: 350px;
+    height: 4px;
+    background: #EA5454;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    display: inline-block;
+    border-radius: 10px 10px 0px 0px;
+}
+.box3::before {
+    content: "";
+    width: 350px;
+    height: 4px;
+    background: #FCAE4A;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    display: inline-block;
+    border-radius: 10px 10px 0px 0px;
+}
+.box4::before {
+    content: "";
+    width: 350px;
+    height: 4px;
+    background: #549EF2;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    display: inline-block;
+    border-radius: 10px 10px 0px 0px;
+}
